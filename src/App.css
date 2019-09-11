@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0 5%;
+  border: 2px solid royalblue;
 }
 
 .App-logo {
@@ -30,4 +32,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h1-div {
+  background: royalblue;
+  color: whitesmoke;
+  height: 105px;
+  width: 100%;
+margin-top: -35px;
+  font-size: 30px;
+}
+
+footer {
+  background: royalblue;
+  color: whitesmoke;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.photo-card{
+ 
+ margin-top: 5%;
 }
