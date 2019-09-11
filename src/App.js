@@ -3,7 +3,7 @@ import "./App.css";
 // import PhotoCard from "./components/PhotoCard";
 import PhotoList from './components/PhotoList';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header>
