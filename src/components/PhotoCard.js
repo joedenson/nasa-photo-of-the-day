@@ -1,15 +1,25 @@
 import React from "react";
-import styled from "styled-components";
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+
 
 const PhotoCard = props => {
   return (
     <div className="photo-card">
-      <h2>{props.title}</h2>
-      <img className="nasa-photo" alt="pic of the day" src={props.url} />
-      <h3>{props.explanation}</h3>
-      <h4>Copyright: {props.copyright}</h4>
+      <Card>
+        <CardBody>
+          <CardTitle className="card-title">{props.title}</CardTitle>
+          <CardSubtitle className="card-date">{props.date}</CardSubtitle>
+        </CardBody>
+        <CardImg width="100%" src={props.url} alt="pic of the day"></CardImg>
+        <CardBody>
+          <CardText className="explanation-text">{props.explanation}</CardText>
+          <CardText className="card-copyright">Copyright: {props.copyright}</CardText>
+        </CardBody>
+      </Card>
     </div>
-  );
+
+  )
 };
 
 export default PhotoCard;
+

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import styled from "styled-components";
 import PhotoCard from "./PhotoCard";
 
 function PhotoList() {
@@ -22,7 +23,7 @@ function PhotoList() {
   return (
     <div className="photo-card">
       {
-        <PhotoCard url={info.url} title={info.title} explanation={info.explanation} copyright={info.copyright} />
+        <PhotoCard url={info.url} title={info.title} explanation={info.explanation} copyright={info.copyright} date={info.date} />
       }
     </div>
   )

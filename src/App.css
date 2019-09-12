@@ -7,7 +7,7 @@
 .App {
   text-align: center;
   margin: 0 5%;
-  border: 2px solid royalblue;
+  border: 5px solid royalblue;
 }
 
 .App-logo {
@@ -45,25 +45,20 @@
   color: whitesmoke;
   height: 110px;
   width: 100%;
-/* margin-top: -35px; */
+padding-top: 2%;
   font-size: 30px;
 }
 
 footer {
   background: royalblue;
   color: whitesmoke;
-  height: 50px;
+  height: 80px;
   width: 100%;
   font-size: 15px;
-  padding-top: 20px;
-  margin-top: 10%;
+  padding-top: 25px;
   font-weight: bold;
 }
 
-.photo-card{
- 
- margin-top: 5%;
-}
 
 .photo-card h2{
   color: royalblue;
@@ -78,6 +73,21 @@ footer {
 }
 
 
-/* .photo-card h4{
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-date{
+   color: royalblue;
+  font-weight: bold;
+}
+
+.card-copyright{
+  font-weight: bold;
+}
+
+.explanation-text{
   color: royalblue;
-} */
+  font-weight: bold;
+}
