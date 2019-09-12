@@ -1,5 +1,13 @@
+*{
+  margin: 0;
+
+}
+
+
 .App {
   text-align: center;
+  margin: 0 5%;
+  border: 5px solid royalblue;
 }
 
 .App-logo {
@@ -30,4 +38,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h1-div {
+  background: royalblue;
+  color: whitesmoke;
+  height: 110px;
+  width: 100%;
+padding-top: 2%;
+  font-size: 30px;
+}
+
+footer {
+  background: royalblue;
+  color: whitesmoke;
+  height: 80px;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+
+.photo-card h2{
+  color: royalblue;
+}
+
+
+.photo-card h3{
+  background: royalblue;
+  color: whitesmoke;
+  line-height: 1.5;
+  margin: 2% 14.8%;
+}
+
+
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-date{
+   color: royalblue;
+  font-weight: bold;
+}
+
+.card-copyright{
+  font-weight: bold;
+}
+
+.explanation-text{
+  color: royalblue;
+  font-weight: bold;
 }
